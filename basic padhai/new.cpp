@@ -8,5 +8,5 @@ int main()
 
     int sum = number1 + number2;
 
-    std::cout << sum;
+    std::cout << sum << "\n";
 }
