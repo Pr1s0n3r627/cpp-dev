@@ -1,12 +1,11 @@
 #include <iostream>
-#include <string> // Include the <string> header file
+#include <string>
 using namespace std;
 
 void reverseString(string s) {
-if (s.empty())
-return;
-reverseString(s.substr(1));
-cout << s[0];
+    if (s.empty()) return;
+    reverseString(s.substr(1));
+    cout << s[0];
 }
 
 int main() {
